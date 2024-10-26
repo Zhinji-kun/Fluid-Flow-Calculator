@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laminar Flow Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="output-container laminar">
+        <p><strong>Reynolds Number:</strong> {{ reynolds_number }}</p>
+        <p><strong>Flow Type:</strong> {{ flow_type }}</p>
+    </div>
+
+    <a href="/" class="back-button">Back to Calculator</a>
+
+    <footer>
+        <p>By: Tamondong</p>
+    </footer>
+
+</body>
+</html>
